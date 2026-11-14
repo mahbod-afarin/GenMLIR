@@ -1,0 +1,5 @@
+# GenDSL description of APSP (blocked Floyd-Warshall).
+workload: apsp
+N: 256
+tile_size: 64
+tiles: 4

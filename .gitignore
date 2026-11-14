@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Artifacts written by run_datasets.py and run_e2e.py
+/out/
+/out_e2e/
+
+# C++ build (GenMLIR/build_and_run.sh)
+/GenMLIR/build/
+/GenMLIR/out/
+/GenMLIR/third_party/
+
+# OS files
+.DS_Store

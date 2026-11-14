@@ -1,0 +1,19 @@
+# GenDSL description of Smith-Waterman local alignment (wavefront DP).
+
+workload: alignment
+
+# Sequence lengths
+query_len: 128
+ref_len: 160
+
+# Tile size used by the compiler/simulator schedule
+tile_size: 32
+
+# Alignment algorithm + scoring parameters
+algo: smith_waterman
+match: 2
+mismatch: -1
+gap: -1
+
+# Band around the main diagonal; 0 computes the full DP table.
+band_width: 0
